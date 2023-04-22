@@ -1,0 +1,28 @@
+.links {
+  display: flex;
+  gap: 3px;
+}
+.container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  width: 1024px;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 0.5px 0.5px rgb(187, 186, 186);
+  background-color: rgb(245, 248, 248);
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  width: 40px;
+}
+button {
+  border-radius: 5px;
+}
