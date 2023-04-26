@@ -1,0 +1,7 @@
+.single {
+  display: flex;
+  gap: 50px;
+}
+.content {
+  flex: 5;
+}

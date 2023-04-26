@@ -14,14 +14,17 @@
   justify-content: center;
   border-bottom: 1px solid gray;
   box-shadow: 1px 0.5px 0.5px rgb(187, 186, 186);
-  background-color: rgb(245, 248, 248);
+  background-color: rgb(226, 220, 209);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .nav-link {
   text-decoration: none;
   color: white;
 }
 .logo {
-  width: 40px;
+  width: 30px;
 }
 button {
   border-radius: 5px;

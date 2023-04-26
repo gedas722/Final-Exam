@@ -28,10 +28,10 @@ const Register = () => {
         <input required type="email" placeholder="email" name="email" onChange={handleChange} />
         <input required type="password" placeholder="password" name="password" onChange={handleChange} />
         <button onClick={handleSubmit}>Sign Up!</button>
+        <p className="err">Error message</p>
         <p>
           Do you have an account? <Link to="/login">Login!</Link>
         </p>
-        <div className="error-message"></div>
       </form>
     </div>
   );

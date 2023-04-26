@@ -33,3 +33,7 @@ p {
   text-align: center;
   padding-bottom: 15px;
 }
+.err {
+  font-size: 12px;
+  color: red;
+}

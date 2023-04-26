@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import Posts from "./pages/Posts";
+import Single from "./pages/Single";
 
 // Components
 import Navbar from "./components/Navbar";
@@ -20,6 +22,26 @@ function App() {
             <>
               <Navbar />
               <Home />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/single"
+          element={
+            <>
+              <Navbar />
+              <Single />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/post/:id"
+          element={
+            <>
+              <Navbar />
+              <Posts />
               <Footer />
             </>
           }
